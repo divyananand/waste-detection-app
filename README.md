@@ -1,12 +1,39 @@
-# React + Vite
+# Waste Detection App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
+This project is a **Waste Detection System** I created to **learn object detection and image processing**. The goal was to experiment with YOLOv5 and OpenCV, process custom image datasets, and visualize waste detection results in real-time.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Motivation
+I developed this project to:  
+- Explore real-time object detection using YOLOv5.  
+- Learn how to preprocess, annotate, and augment datasets.  
+- Understand end-to-end integration of a **Python backend** (Flask) with a **React frontend**.  
+- Gain hands-on experience with deploying a simple AI-powered web application.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+- Upload an image and detect multiple types of waste.  
+- Annotated images show detected waste with bounding boxes.  
+- Returns detection results as simple text (e.g., "Glass — 75% confidence").  
+- Minimal, responsive frontend with live preview and detection results.  
+
+---
+
+## Screenshots
+## Project Preview
+
+Here are some example outputs of the Waste Detection App:
+
+![Output 1](Screenshots/Output_1)
+![Output 2](Screenshots/Output_2)
+![Output 3](Screenshots/Output_3)
+
+
+---
+
+## Result Example
+After uploading an image, the app returns results like:  
+
